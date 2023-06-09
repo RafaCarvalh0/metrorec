@@ -1,5 +1,5 @@
 ESPECIFICAÇÕES
-1. O programa deve ser implementado em C e ser executável em sistemas Linux, Unix ou macOS
+O programa deve ser implementado em C e ser executável em sistemas Linux, Unix ou macOS
 e obrigatoriamente utilizar as seguintes funções:
 - pthread_mutex_init
 - pthread_mutex_lock
@@ -19,3 +19,13 @@ permitido que diversos passageiros chamem estacao_espera_pelo_vagao, e que a fun
 retorne para cada passageiro antes de chamar estacao_embarque
 - O código não deve apresentar busy-wait
 - A compilação deve ser por Makefile, e retornar o arquivo metrorec executável
+
+PROGRAMAS
+- Para rodar o programa basta ter 3 arquivos: metrorec.c, metrorec-runner.c e Makefile
+- O metrorec.c contem o código da implementação 
+- O metrorec-runner.c contem 1 dos 2 arquivos de teste
+- Arquivo Makefile
+
+- Após pegar os 3 arquivos necessarios, utilizar os seguintes comandos via terminal:
+- 1. make
+- 2. ./metrorec
