@@ -1,4 +1,5 @@
 -ESPECIFICAÇÕES
+
 O programa deve ser implementado em C e ser executável em sistemas Linux, Unix ou macOS
 e obrigatoriamente utilizar as seguintes funções:
 pthread_mutex_init, pthread_mutex_lock, pthread_mutex_unlock, pthread_cond_init, pthread_cond_signal, pthread_cond_wait, pthread_cond_broadcast
